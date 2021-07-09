@@ -9,5 +9,7 @@ Cause for using image augmentation is that CNN is used to recognize images in pa
 
 Second, most used method is dropout to avoid Image augmentation. **Dropout** consist of randomly training off some neurons during training, which force the other neurons to slack and to take a more active part in training. 
 
+And finally to check that the model is working good or not, by applying the model on Validation dataset (as validation dataset consist of images that are not used for tuning weights and biases of training set).
+
 So the goal is that at training time, your model will never see the exact same picture twice. This exposes the model to more aspects of the data, allowing it to generalize better.
 [Colab](https://colab.research.google.com/drive/10rKJTxyFW694_hJjSnCmRB2aneXcG3V3?usp=sharing)
